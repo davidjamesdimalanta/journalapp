@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 function Landing() {
     const [entry , setEntry] = useState('');
     console.log(entry);
@@ -45,6 +46,7 @@ function Landing() {
         </>
         <div 
             className="pt-4">
+        <Link to={"/Chat"}>
         <button
             className="w-16 h-8
                        hover:border border-slate-400 rounded-md
@@ -55,6 +57,7 @@ function Landing() {
             onClick={sendDataToAPI}>
             Submit
         </button>
+        </Link>
         </div>
         </div>
         </div>

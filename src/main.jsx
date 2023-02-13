@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import Landing from './components/Landing'
 import Chat from './components/Chat'
+import Update from './components/Update'
 import './index.css'
 import {
   createBrowserRouter,
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/Chat",
         element: <Chat />,
+      },
+      {
+        path: "/Update",
+        element: <Update />,
       },
     ],
   },
