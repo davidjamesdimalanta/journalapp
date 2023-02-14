@@ -33,7 +33,7 @@ function ChatEntry() {
             return (
             <div 
                 className="flex flex-row justify-between items-center
-                           w-7/12 h-auto p-2 border border-t-0 border-y-0 border-b-slate-400
+                           w-11/12 h-auto p-2 border border-t-0 border-y-0 border-b-slate-400
                            bg-inherit font-NotoSerifJP text-slate-400">
                 {data.entry}
                 <div className=" pl-4">

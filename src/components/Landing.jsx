@@ -12,14 +12,14 @@ function Landing() {
     return (
         <div className="relative
                         flex justify-center items-center pl-14">
-        <div className="container w-screen h-10/12 
+        <div className="container w-full h-10/12 
                         flex flex-col justify-center items-center pr-12 sm:pr-16">
         
         <div className="flex flex-col justify-center items-center
                         lg:flex-row 
                         pb-10">
-        <span className="text-white text-5xl sm:text-7xl
-                         font-NotoSerifJP font-extrabold">
+        <span className="text-white text-5xl sm:text-7xl 
+                         font-NotoSerifJP font-extrabold text-center">
             Get It Off Your
         </span>
         <span className="text-slate-300 text-5xl sm:text-7xl

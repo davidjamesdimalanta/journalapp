@@ -5,7 +5,7 @@ function App() {
         <div className="flex flex-row justify-center items-center w-screen h-screen">
         <div className="absolute
                         h-screen w-screen
-                        flex flex-col justify-end
+                        flex flex-col justify-start sm:justify-end
                         p-6 pt-8
                         bg-gradient-to-b from-slate-900 via-indigo-800 to-indigo-800">
         <div className="py-2 w-10">
@@ -24,7 +24,7 @@ function App() {
         </svg>
         </Link>
         </div>
-        <div className="py-2 w-10">
+        <div className="py-2 pb-12 w-10">
         <Link to={"/"}>
         <svg 
                 xmlns="http://www.w3.org/2000/svg" 
