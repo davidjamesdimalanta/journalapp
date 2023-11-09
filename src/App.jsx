@@ -2,12 +2,13 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 function App() {
     return (
-        <div className="flex flex-row justify-center items-center w-screen h-screen">
+        <div className="flex flex-row justify-center items-center w-screen h-screen
+        bg-gradient-to-b from-slate-900 via-indigo-800 to-indigo-800">
         <div className="absolute
                         h-screen w-screen
                         flex flex-col justify-start sm:justify-end
                         p-6 pt-8
-                        bg-gradient-to-b from-slate-900 via-indigo-800 to-indigo-800">
+                        ">
         <div className="py-2 w-10">
         <Link to={"/Chat"}>
         <svg

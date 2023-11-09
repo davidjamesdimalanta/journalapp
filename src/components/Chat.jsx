@@ -12,7 +12,7 @@ function Chat() {
         <h1 className="text-white text-5xl font-NotoSerifJP animate-fadeIn">
             Entries
         </h1>
-        <div className="animate-fadeInLate flex flex-col justify-center items-center gap-6 overflow-scroll w-fit pt-32">
+        <div id="chat" className="animate-fadeInLate flex flex-col justify-center items-center gap-6 overflow-scroll w-fit pt-32">
         <ChatEntry />
         </div>
         </div>
